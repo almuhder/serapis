@@ -1,0 +1,6 @@
+AuthUserFile /home/rbk15109/public_html/apply/public/admin/.htpasswd
+AuthGroupFile /dev/null
+AuthName EnterPassword
+AuthType Basic
+
+require user bayan
