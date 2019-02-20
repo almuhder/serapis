@@ -43,11 +43,11 @@
   
 </style>
 <body id="page-top" dir="rtl">
-
+<a name="home"></a> 
   <!-- Navigation -->
   <nav class="text-left navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="http://rbkserapis.com">
+      <a class="navbar-brand js-scroll-trigger" href="http://serapisrbk.com">
         <img class="img img-responsive" src="img/serapis-logo.png">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -58,28 +58,28 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#home">الصفحة الرئيسية</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#home">الصفحة الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#about">عن سيرابيس</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#about">عن سيرابيس</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#portfolio">المنهاج</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#portfolio">المنهاج</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#program">البرنامج</a>
+            <a class="nav-link js-scroll-trigger" href="index.php#program">البرنامج</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html#team">الفريق</a>
+          </li> -->
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" style=" text-transform:none" href="faq.php"> الأسئلة الأكثر شيوعا </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style=" text-transform:none" href="faq.html"> الأسئلة الأكثر شيوعا </a>
+            <a class="nav-link js-scroll-trigger" href="index.php#contact">اتصل بنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#contact">اتصل بنا</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link float-right js-scroll-trigger" href="index.php">English</a>
+            <a class="nav-link float-right js-scroll-trigger" href="enIndex.php">English</a>
           </li>
         </ul>
       </div>
@@ -91,7 +91,7 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in" style="color:#C50084">أهلا بكم في سيرابيس</div>
-          <div class="intro-heading text-uppercase" style="color:#C50084">مجاناً ٨ أسابيع من التدريب المكثف في اللغة الانجليزية و المعرفة الرقمية</div>
+          <div class="intro-heading text-uppercase" style="color:#C50084">٨ أسابيع مجانية من التدريب المكثف في اللغة الانجليزية والمعرفة الرقمية</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="apply/public">سجل الآن</a>
         </div>
       </div>

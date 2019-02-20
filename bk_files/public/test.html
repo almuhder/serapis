@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RBK | Apply to RBK Program!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/styles.css">
+    <link rel="shortcut icon" href="http://rbk.org/wp-content/uploads/2016/03/fav.png" />
+</head>
+    <style media="screen">
+    .testclass {
+        background-image: url("_images/a1.jpg");
+        background-repeat: no-repeat;
+        box-shadow:inset 0 0 0 2000px rgba(0,0,0,.5);
+        min-height: 460px;
+        max-width: 430px;;
+        color:white;
+    }
+    /*.testclass {
+        background-image: url("_images/a1.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        min-height: 500px;
+    }
+    .testclass:after {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: rgba(0,0,0,.5);
+    }*/
+    </style>
+    <body>
+
+        <form  data-toggle="validator" role="form" class="form-horizontal" method="GET" action="send.php" style="padding: 0px 20px 20px 20px; max-width:445px; margin-left: 20px;  margin-right: 20px;">
+            <div class="form-group">
+                <label for="firstName" class="control-label">
+                    First Name
+                    <span class="fieldRequired"> *</span>
+                </label>
+                <div class="">
+                    <input type="text" class="form-control" data-error="Please enter first name." id="firstName" name="firstName" placeholder="First Name" required>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastName" class="control-label">
+                    Last Name
+                    <span class="fieldRequired"> *</span>
+                </label>
+                <div class="">
+                    <input type="text" class="form-control" data-error="Please enter last name." id="lastName" name="lastName" placeholder="Last Name" required>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="control-label">
+                    Email<span class="fieldRequired"> *</span>
+                </label>
+                <div class="">
+                    <input type="email" class="form-control" data-error="Please enter valid email." id="email" name="email" placeholder="Email" required>
+                     <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div>
+                    <!-- <button id="clearButton" type="reset" class="btn btn-sample">Clear</button> -->
+                    <button id="submitButton" type="submit" class="btn btn-sample btn-block">Submit</button>
+                </div>
+            </div>
+        </form>
+
+
+        <hr>
+        <div class="testclass">
+            <h1>Apply</h1>
+        </div>
+        <hr>
+        <!-- libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+    </body>
+</html>

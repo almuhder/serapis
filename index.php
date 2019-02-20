@@ -1,46 +1,48 @@
-<?php include('includes/header.php'); ?>
+<?php include('includes/arHeader.php'); ?>
 
   <!-- Services -->
   <section id="about" style="padding:50px;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About Serapis:</h2>
-          <h3 class="section-subheading text-muted">The First English & Digital Literacy Bootcamp in the World!</h3>
+          <h2 class="section-heading text-uppercase">عن سيرابيس</h2>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-question-circle  fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Who Are We?</h4>
-          <p class="text-muted">Launched in May 2016, ReBootKamp (RBK) is a career accelerator focused on empowering
-            refugee and minority populations around conflict zones. Based in Amman, RBK was co-founded by the US-based
-            Hack Reactor (HR), one of the world’s leading coding bootcamps.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <!-- <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">What Is It About?</h4>
-          <p class="text-muted">It all about English, soft skills, problem solving, digital literacy, Google Docs,
-            Google Sheets, Google Slides, Google SketchUp, GarageBand, Adobe Photoshop, Adobe Illustrator, Adobe
-            Premiere Pro.</p>
+          </span> -->
+          <img src="img/icons/computer.png">
+          <h4 class="service-heading">عن البرنامج؟</h4>
+          <p class="text-muted">
+            يتمحور البرنامج حول تعلّم اللغة الإنجليزية والمهارات الحياتية و التقنيّة ومهارة حل المشكلات وكيفية التعامل مع مستندات وجداول و العروض التقديمية من شركة غوغل وبرنامج تحرير الصوت جاراج باند وبرنامج سكيتش أب وبرنامج الفوتوشوب وكيفية التعامل مع برمجية الووردبريس
+          </p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x">
+          <!-- <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-university  fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">What Is the Schedule?</h4>
+          </span> -->
+          <img src="img/icons/building.png">
+          <h4 class="service-heading">ما هو الجدول الزمني؟ </h4>
           <p class="text-muted">
-            8 weeks.
-            <b> 6 days a week.</b>
-            10-12 hours a day.
-            <b>Total structured time: 600 hours</b>
+            ٨ أسابيع, 
+            <b> ٦ أيام في الأسبوع</b>
+            من ١٠ الى ١٢ ساعة في اليوم.
+            <b>مجموع الساعات هو ٦٠٠ ساعة منظمة.</b>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <!-- <span class="fa-stack fa-4x" style="font-family: Font Awesome 5 Free;">
+            <i class="fas fa-circle fa-stack-2x text-primary" style="font-family: Font Awesome 5 Free;"></i>
+            <i class="fas fa-question-circle  fa-stack-1x fa-inverse" style="font-family: Font Awesome 5 Free;"></i>
+          </span> -->
+          <img src="img/icons/question.png">
+          <h4 class="service-heading">لماذا انضم للبرنامج؟</h4>
+          <p class="text-muted">
+
           </p>
         </div>
       </div>
@@ -52,7 +54,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="color:#C50084">What You Will Learn:</h2>
+          <h2 class="section-heading text-uppercase" style="color:#C50084"> ماذا سوف تتعلم؟</h2>
           <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
@@ -67,8 +69,8 @@
             <img class="img-fluid" src="img/learn/english.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>English</h4>
-            <p class="text-muted">English Language</p>
+            <h4>اللغة الانجليزية</h4>
+            <p class="text-muted">اللغة الانجليزية</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -81,8 +83,8 @@
             <img class="img-fluid" src="img/learn/sketch.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Google SketchUp</h4>
-            <p class="text-muted">3D Modeling Software</p>
+            <h4>جوجل سكتش أب</h4>
+            <p class="text-muted">برنامج تصميم هندسي معماري</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -95,8 +97,8 @@
             <img class="img-fluid" src="img/learn/carageband.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>GarageBand</h4>
-            <p class="text-muted">Digital Audio Workstations</p>
+            <h4>جراجباند  </h4>
+            <p class="text-muted">يمكنك الاستمتاع بعزف الموسيقى وتسجيلها ومشاركتها بكل سهولة</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -109,8 +111,8 @@
             <img class="img-fluid" src="img/learn/excel.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Microsoft Excel</h4>
-            <p class="text-muted">Spreadsheet</p>
+            <h4>مايكروسوفت اكسل</h4>
+            <p class="text-muted">برنامج لإنشاء جداول البيانات</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -123,8 +125,8 @@
             <img class="img-fluid" src="img/learn/powerpoint.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Microsoft PowerPoint</h4>
-            <p class="text-muted">Presentation</p>
+            <h4>مايكروسوفت باوربوينت</h4>
+            <p class="text-muted">برنامج إنشاء العروض التقديمية</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -137,8 +139,8 @@
             <img class="img-fluid" src="img/learn/word.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Microsoft Word</h4>
-            <p class="text-muted">Word Processor</p>
+            <h4> مايكروسوفت ورد</h4>
+            <p class="text-muted">برنامج معالج النصوص</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -151,8 +153,8 @@
             <img class="img-fluid" src="img/learn/outlook.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Microsoft Outlook</h4>
-            <p class="text-muted">Email Management</p>
+            <h4>مايكروسوفت أوتلوك</h4>
+            <p class="text-muted">برنامج لإدارة الايميلات</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -165,8 +167,22 @@
             <img class="img-fluid" src="img/learn/ps.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Adobe Photoshop</h4>
-            <p class="text-muted">Raster Graphics Editor </p>
+            <h4>أدوبي فوتوشوب</h4>
+            <p class="text-muted">برنامج تحرير الصور </p>
+          </div>
+        </div>
+         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/learn/wordpress.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>ووردبريس</h4>
+            <p class="text-muted"> نظام إدارة المحتوى </p>
           </div>
         </div>
       </div>
@@ -178,8 +194,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="color:#C50084">Program Schedule</h2>
-          <h3 class="section-subheading text-muted"> 6 days a week. 10-12 hours a day.</h3>
+          <h2 class="section-heading text-uppercase" style="color:#C50084">جدول البرنامج؟</h2>
+          <h3 class="section-subheading text-muted"> ٦ أيام في الأسبوع, من ١٠ الى ١٢ ساعة في اليوم</h3>
         </div>
       </div>
       <div class="row">
@@ -191,10 +207,10 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Arrive</h4>
+                  <h4>الوصول</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">At 8:30 o’clock</p>
+                  <p class="text-muted">٨:٣٠ صباحا</p>
                 </div>
               </div>
             </li>
@@ -204,11 +220,12 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Morning kick-off</h4>
+                  <h4>المقدمة الصباحية</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">at 9:00: Challenges to improve your problem-solving skills follow by
-                    introduction to new sprint!</p>
+                  <p class="text-muted">
+                    في ٩:٠٠ صباحا تمارين لتحسين مهارات حل المشاكل تتبع بمقدمة الى محتويات مادة اليوم
+                  </p>
                 </div>
               </div>
             </li>
@@ -218,10 +235,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Working with a partner on a real-world project</h4>
+                  <h4> التعلّم التشاركي</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">leverage off each other to do something neither of you could do alone .</p>
+                  <p class="text-muted">
+في مراحل معينة خلال البرنامج, يقوم الطلاب بحل  تمارين وتحديات متقدمة و التي تتضمن إدارة المشاريع ومهارات تواصل الفريق
                 </div>
               </div>
             </li>
@@ -232,10 +250,10 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Lunch</h4>
+                  <h4>الغداء</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">The big meal of the day: mansaf, magluba, salads, and desserts...</p>
+                  <p class="text-muted">الوجبة الرئيسية في اليوم, منسف, مقلوبة,سلطات والحلويات</p>
                 </div>
               </div>
             </li>
@@ -245,11 +263,10 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Exercise</h4>
+                  <h4>راحة عقلية وتمارين</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">One hour of no screen, go kick a ball, go guided meditation or yoga, play ping
-                    pong, climb stairs and otherwise get your body moving.</p>
+                  <p class="text-muted">ساعة كاملة بدون التفاعل مع اي شاشة, رمي الكرة, او لممارسة رياضة التأمل أو رياضة اليوغا, قم بلعب رياضة البينغ بونغ ,اذهب لتسلق الأدراج أو بأي طريقة أخرى, قم بتحريك جسدك.</p>
                 </div>
               </div>
             </li>
@@ -259,10 +276,10 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Learn</h4>
+                  <h4>التعلم</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Daily lecture on new concept & challenges solution</p>
+                  <p class="text-muted">  محاضرة يومية عن موضوع جديد ومشاركة حلول التحديات السابقة</p>
                 </div>
               </div>
             </li>
@@ -272,11 +289,10 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4> Deep learning</h4>
+                  <h4> التعلّم العميق</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">at points during the course, students take on longer projects & learning high
-                    level skills about project management & team communication</p>
+                  <p class="text-muted">في مراحل معينة خلال البرنامج, يقوم الطلاب بحل  لفترات مطولة وتعلم مهارات بمراحل عليا عن إدارة المشاريع وعن تواصل الفريق.</p>
                 </div>
               </div>
             </li>
@@ -286,19 +302,18 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Events/more learning</h4>
+                  <h4>الأحداث الإجتماعية / المزيد من التعلم</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Guest speakers, social nights, meetings with our hiring partners and special
-                    events.</p>
+                  <p class="text-muted">متحدثون ضيوف, وأنشطة اجتماعية, بالإضافة الى أحداث اجتماعية مميزة</p>
                 </div>
               </div>
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <h4>Class
-                  <br>officially
-                  <br>ends at 9 PM!</h4>
+                <h4> ينتهي التدريب 
+                  <br>عند الساعة 
+                  <br>٩ مساء</h4>
               </div>
             </li>
           </ul>
@@ -308,19 +323,19 @@
   </section>
 
   <!-- Team -->
-  <section class="bg-light" id="team" style="padding:50px;">
+  <!-- <section class="bg-light" id="team" style="padding:50px;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="color:#C50084">Amazing Team</h2>
+          <h2 class="section-heading text-uppercase" style="color:#C50084">فريقنا الرائع</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Hugh Bosely</h4>
-            <p class="text-muted">Serapis Founder</p>
+            <h4>هيو بوسلي</h4>
+            <p class="text-muted">مؤسس سيرابيس</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="https://twitter.com/HughBosely">
@@ -343,8 +358,8 @@
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Tamara Almajali</h4>
-            <p class="text-muted">Project Director</p>
+            <h4>تمارا المجالي </h4>
+            <p class="text-muted"> مديرة المشروع</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -367,8 +382,8 @@
         <div class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4> Claire Siskin </h4>
-            <p class="text-muted">English Language Specialist</p>
+            <h4>  كلير سيسكيان</h4>
+            <p class="text-muted">متخصصة اللغة الإنجليزية</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="https://twitter.com/cbsiskin">
@@ -390,18 +405,21 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Clients -->
   <section class="py-5">
     <div class="container">
 
       <div class="row">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-1 col-sm-1">
           <br>
-          <h2 class="lead text-right"> Partners </h2>
+          <h2 class="lead text-right"> الشركاء </h2>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-11 col-sm-11">
+            <img class="img-fluid d-block mx-auto" src="img/partners/logos.jpg" width="90%" alt="rbk">
+        </div>
+        <!-- <div class="col-md-3 col-sm-6">
           <a href="http://rbk.org">
             <img class="img-fluid d-block mx-auto" src="img/partners/rbk.png" width="90%" alt="rbk">
           </a>
@@ -410,7 +428,7 @@
           <a href="https://jo.usembassy.gov/">
             <img class="img-fluid d-block mx-auto" src="img/partners/us-flag.png" alt="us flag">
           </a>
-        </div>
+        </div> -->
 
 
       </div>
@@ -422,8 +440,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="color:#C50084">Contact Us</h2>
-          <h3 class="section-subheading text-white">Feel Free to Contact us <a href="mailto:info@serapisrbk.com">
+          <h2 class="section-heading text-uppercase" style="color:#C50084">تواصل معنا </h2>
+          <h3 class="section-subheading text-white">نرحب بتواصلكم و استفساراتكم واقتراحاتكم <a href="mailto:info@serapisrbk.com">
               info@serapisrbk.com </a></h3>
         </div>
       </div>
@@ -433,32 +451,32 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required="required"
-                    data-validation-required-message="Please enter your name.">
+                  <input class="form-control" id="name" name="name" type="text" placeholder="الاسم *" required="required"
+                    data-validation-required-message="يرجى إدخال الاسم">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required="required"
-                    data-validation-required-message="Please enter your email address.">
+                  <input class="form-control" id="email" name="email" type="email" placeholder="البريد الالكتروني *" required="required"
+                    data-validation-required-message="يرجى إدخال البريد الالكتروني">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required="required"
-                    data-validation-required-message="Please enter your phone number.">
+                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="رقم الهاتف *" required="required"
+                    data-validation-required-message="يرجى إدخال رقم الهاتف">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required="required"
-                    data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" id="message" name="message" placeholder="الرسالة *" required="required"
+                    data-validation-required-message="يرجى إرسال الرسالة"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">ارسال </button>
               </div>
             </div>
           </form>
@@ -466,4 +484,4 @@
       </div>
     </div>
   </section>
-  <?php include('includes/footer.php'); ?>
+  <?php include('includes/arFooter.php'); ?>

@@ -34,11 +34,12 @@
   }
 </style>
 <body id="page-top">
+<a name="home"></a> 
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-       <a class="navbar-brand js-scroll-trigger" href="http://rbkserapis.com">
+    <div  class="container">
+       <a class="navbar-brand js-scroll-trigger" href="http://serapisrbk.com">
         <img class="img img-responsive" src="img/serapis-logo.png">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -49,28 +50,28 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#home">Home</a>
+            <a class="nav-link js-scroll-trigger" href="enIndex.php#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="enIndex.php#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#portfolio">Curriculum</a>
+            <a class="nav-link js-scroll-trigger" href="enIndex.php#portfolio">Curriculum</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#program">Program</a>
+            <a class="nav-link js-scroll-trigger" href="enIndex.php#program">Program</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html#team">Team</a>
+          </li> -->
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" style=" text-transform:none" href="faqs.php"> FAQs </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style=" text-transform:none" href="faq.html"> FAQs </a>
+            <a class="nav-link js-scroll-trigger" href="enIndex.php#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link float-right js-scroll-trigger"  style="font-family: 'Cairo', sans-serif;" href="arIndex.php">عربي</a>
+            <a class="nav-link float-right js-scroll-trigger"  style="font-family: 'Cairo', sans-serif;" href="index.php">عربي</a>
           </li>
         </ul>
       </div>
@@ -82,7 +83,7 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in" style="color:#C50084">Welcome To Serapis!</div>
-          <div class="intro-heading text-uppercase" style="color:#C50084">FREE 8 WEEKS' ENGLISH AND DIGITAL LITERACY BOOTCAMP</div>
+          <div class="intro-heading text-uppercase" style="color:#C50084">FREE 8 WEEKS ENGLISH AND DIGITAL LITERACY BOOTCAMP</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="apply/public">Apply Now</a>
         </div>
       </div>
