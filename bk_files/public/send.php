@@ -9,6 +9,10 @@
 }
 </style>
 <?php
+	
+	
+
+
 	// the message
 	$first_name  = $_POST["firstName"];
 	$last_name   = $_POST["lastName"];
@@ -67,10 +71,21 @@ $flag = $candidate->add($conn, $first_name, $last_name, $email);
 
 
 ?>
-		<h3</h3>
-		<h3>Dear Serapis Applicant, عزيزي متقدم طلب لسيرابيس، </h3>
+		
+		
+		
+
+
+<?php
+if($lg == "ar" || $lg == null){
+                load_ar();
+        }else{
+                load_en();
+        }
+function load_ar(){
+	echo '<h3 dir="rtl"> عزيزي متقدم طلب لسيرابيس، </h3>
 		<p dir="rtl">
-			حتى تقوم بإتمام طلبك لسيرابيس، يرجى إكمال جميع الخطوات. ننصح بتوفير 4 ساعات لإكمال جميع المطلوب. يرجى مراعاة لا تحضيرات مسبقة لأي من هذه الأسئلة.
+يرجى اتمام جميع الخطوات والتي تتطلب التفرغ لمدة زمنية أقصاها ٤ ساعات، مع العلم أن هذه الأسئلة لا تحتاج لأي تحضير مسبق.
 
 		</p>
 		<ol dir="rtl">
@@ -81,8 +96,11 @@ $flag = $candidate->add($conn, $first_name, $last_name, $email);
 			</li>
 			
 		</ol>
-		<p dir="rtl">حظاً موافقا ودعونا نبدأ.</p>
-		<p>
+		<p dir="rtl">حظاً موافقا ودعونا نبدأ.</p>';
+}
+function load_en(){
+	echo '<h3>Dear Serapis Applicant,</h3>
+	<p>
 			In order to complete your application to RBK, please complete the following steps. We recommend that you allow 4 hours to complete the full application. Please note that no preparation is needed for any of these assessments.
 		</p>
 		<ol>
@@ -93,5 +111,7 @@ $flag = $candidate->add($conn, $first_name, $last_name, $email);
 			</li>
 			
 		</ol>
-			<p>Good luck and let's get started! </p><br>
+			<p>Good luck and let\'s get started! </p><br>';
+}
+?>
 <?php include SHARED_PATH.'/footer.php'; ?>

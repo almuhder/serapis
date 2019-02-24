@@ -1,4 +1,6 @@
 <?php include('includes/header.php'); ?>
+<?php include('includes/slider.php'); ?>
+
 
   <!-- Services -->
   <section id="about" style="padding:50px;">
@@ -18,7 +20,7 @@
           </span>
           <h4 class="service-heading">What Is It About?</h4>
           <p class="text-muted">It all about English, soft skills, problem solving, digital literacy, G Suite,
-            Mircosoft Office, Google SketchUp, GarageBand, Adobe Photoshop.</p>
+            Microsoft Office, Google SketchUp, GarageBand, Adobe Photoshop.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -39,7 +41,7 @@
             <i class="fas fa-question-circle  fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Why Serapis?</h4>
-          <p class="text-muted">Need Text here.</p>
+          <p class="text-muted">Open doors for better Tawjihi, career accelerator, vocational training and increase chances for employment.</p>
         </div>
       </div>
     </div>
@@ -140,7 +142,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -154,7 +156,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -168,7 +170,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -219,7 +221,7 @@
                   <h4>Morning kick-off</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">At 9:00am challenges to improve your problem-solving skills followed by
+                  <p class="text-muted">We start challenges to improve your problem-solving skills followed by
                     an introduction to a new sprint!</p>
                 </div>
               </div>
@@ -310,7 +312,7 @@
               <div class="timeline-image">
                 <h4 style="margin-top:55px;">Class officially
                   <br>ends at 
-                  <br>9 PM!</h4>
+                  <br>6 PM!</h4>
               </div>
             </li>
           </ul>
@@ -403,9 +405,9 @@
       </div>
     </div>
   </section> -->
-
+<HR>
   <!-- Clients -->
-  <section class="py-5 bg-light">
+  <section class="py-5">
     <div class="container">
 
       <div class="row">

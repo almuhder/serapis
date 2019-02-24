@@ -1,4 +1,5 @@
 <?php include('includes/arHeader.php'); ?>
+<?php include('includes/arSlider.php'); ?>
 
   <!-- Services -->
   <section id="about" style="padding:50px;">
@@ -17,7 +18,7 @@
           <img src="img/icons/computer.png">
           <h4 class="service-heading">عن البرنامج؟</h4>
           <p class="text-muted">
-            يتمحور البرنامج حول تعلّم اللغة الإنجليزية والمهارات الحياتية و التقنيّة ومهارة حل المشكلات وكيفية التعامل مع مستندات وجداول و العروض التقديمية من شركة غوغل وبرنامج تحرير الصوت جاراج باند وبرنامج سكيتش أب وبرنامج الفوتوشوب وكيفية التعامل مع برمجية الووردبريس
+            يتمحور البرنامج حول تعلّم اللغة الإنجليزية والمهارات الحياتية و التقنيّة ومهارة حل المشكلات وكيفية التعامل مع المستندات والجداول و العروض التقديمية من شركة غوغل وبرنامج تحرير الصوت جاراج باند وبرنامج سكيتش أب وبرنامج الفوتوشوب وكيفية التعامل مع برمجية الووردبريس
           </p>
         </div>
         <div class="col-md-4">
@@ -42,7 +43,7 @@
           <img src="img/icons/question.png">
           <h4 class="service-heading">لماذا انضم للبرنامج؟</h4>
           <p class="text-muted">
-
+          يفتح البرنامج لك ابواب لتحصيل أفضل في كل من التوجيهي وتدريبات المهن و يزيد من فرص حصولك على وظيفة.
           </p>
         </div>
       </div>
@@ -83,7 +84,7 @@
             <img class="img-fluid" src="img/learn/sketch.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>جوجل سكتش أب</h4>
+            <h4>Google SketchUp</h4>
             <p class="text-muted">برنامج تصميم هندسي معماري</p>
           </div>
         </div>
@@ -97,7 +98,7 @@
             <img class="img-fluid" src="img/learn/carageband.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>جراجباند  </h4>
+            <h4>GarageBand</h4>
             <p class="text-muted">يمكنك الاستمتاع بعزف الموسيقى وتسجيلها ومشاركتها بكل سهولة</p>
           </div>
         </div>
@@ -111,7 +112,7 @@
             <img class="img-fluid" src="img/learn/excel.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>مايكروسوفت اكسل</h4>
+            <h4>Microsoft Excel</h4>
             <p class="text-muted">برنامج لإنشاء جداول البيانات</p>
           </div>
         </div>
@@ -125,7 +126,7 @@
             <img class="img-fluid" src="img/learn/powerpoint.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>مايكروسوفت باوربوينت</h4>
+            <h4>Microsoft PowerPoint </h4>
             <p class="text-muted">برنامج إنشاء العروض التقديمية</p>
           </div>
         </div>
@@ -139,12 +140,12 @@
             <img class="img-fluid" src="img/learn/word.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4> مايكروسوفت ورد</h4>
+            <h4> Microsoft Word </h4>
             <p class="text-muted">برنامج معالج النصوص</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -153,12 +154,12 @@
             <img class="img-fluid" src="img/learn/outlook.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>مايكروسوفت أوتلوك</h4>
+            <h4> Microsoft Outlook</h4>
             <p class="text-muted">برنامج لإدارة الايميلات</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -167,12 +168,12 @@
             <img class="img-fluid" src="img/learn/ps.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>أدوبي فوتوشوب</h4>
+            <h4>Adobe Photoshop </h4>
             <p class="text-muted">برنامج تحرير الصور </p>
           </div>
         </div>
          <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -181,7 +182,7 @@
             <img class="img-fluid" src="img/learn/wordpress.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>ووردبريس</h4>
+            <h4>WordPress</h4>
             <p class="text-muted"> نظام إدارة المحتوى </p>
           </div>
         </div>
@@ -224,8 +225,10 @@
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">
-                    في ٩:٠٠ صباحا تمارين لتحسين مهارات حل المشاكل تتبع بمقدمة الى محتويات مادة اليوم
-                  </p>
+                    نبدأ بتمارين تحسين مهارة حل المشاكل بطريقة ابداعية ثم تقديم محتويات مادة اليوم
+
+
+                </p>
                 </div>
               </div>
             </li>
@@ -239,7 +242,8 @@
                 </div>
                 <div class="timeline-body">
                   <p class="text-muted">
-في مراحل معينة خلال البرنامج, يقوم الطلاب بحل  تمارين وتحديات متقدمة و التي تتضمن إدارة المشاريع ومهارات تواصل الفريق
+التعلم على شكل مجموعات مكونه من شخصين. والتي تؤدي الى نتائج مميزة عن العمل الانفرادي
+
                 </div>
               </div>
             </li>
@@ -253,7 +257,10 @@
                   <h4>الغداء</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">الوجبة الرئيسية في اليوم, منسف, مقلوبة,سلطات والحلويات</p>
+                  <p class="text-muted">
+                (الوجبة الرئيسية خلال اليوم (مثل : منسف، مقلوبة، سلطات والحلويات
+    
+                </p>
                 </div>
               </div>
             </li>
@@ -263,10 +270,15 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>راحة عقلية وتمارين</h4>
+                  <h4> التمارين البدنية
+</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">ساعة كاملة بدون التفاعل مع اي شاشة, رمي الكرة, او لممارسة رياضة التأمل أو رياضة اليوغا, قم بلعب رياضة البينغ بونغ ,اذهب لتسلق الأدراج أو بأي طريقة أخرى, قم بتحريك جسدك.</p>
+                  <p class="text-muted">
+
+                 القيام بعمل التمارين الرياضية لمدة ساعة كاملة للحفاظ على سلامة جسدك. والتي تشمل رمي الكرة، التامل، اليوغا، البينغ بونج، تسلق الادراج او اي تمارين لتحريك الجسد 
+
+                </p>
                 </div>
               </div>
             </li>
@@ -279,7 +291,11 @@
                   <h4>التعلم</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">  محاضرة يومية عن موضوع جديد ومشاركة حلول التحديات السابقة</p>
+                  <p class="text-muted"> 
+                محاضرة يومية عن موضوع جديد ومشاركة حلول التحديات السابقة
+
+    
+                </p>
                 </div>
               </div>
             </li>
@@ -292,7 +308,11 @@
                   <h4> التعلّم العميق</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">في مراحل معينة خلال البرنامج, يقوم الطلاب بحل  لفترات مطولة وتعلم مهارات بمراحل عليا عن إدارة المشاريع وعن تواصل الفريق.</p>
+                  <p class="text-muted">
+                  في مراحل معينة خلال البرنامج، يقوم الطلاب بمواجهة تحديات تتطلب التفكير العميق، وتعلم مهارات تشمل إدارة المشاريع والتواصل بين اعضاء الفريق
+
+
+                  </p>
                 </div>
               </div>
             </li>
@@ -305,7 +325,9 @@
                   <h4>الأحداث الإجتماعية / المزيد من التعلم</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">متحدثون ضيوف, وأنشطة اجتماعية, بالإضافة الى أحداث اجتماعية مميزة</p>
+                  <p class="text-muted">
+                متحدثون ضيوف, وأنشطة اجتماعية, بالإضافة الى أحداث اجتماعية مميزة
+                </p>
                 </div>
               </div>
             </li>
@@ -313,7 +335,7 @@
               <div class="timeline-image">
                 <h4> ينتهي التدريب 
                   <br>عند الساعة 
-                  <br>٩ مساء</h4>
+                  <br>٦ مساء</h4>
               </div>
             </li>
           </ul>
@@ -321,7 +343,7 @@
       </div>
     </div>
   </section>
-
+<HR>
   <!-- Team -->
   <!-- <section class="bg-light" id="team" style="padding:50px;">
     <div class="container">
@@ -476,7 +498,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">ارسال </button>
+                <button id="sendMessageButton" class="btn btn-primary btn-lg text-uppercase" type="submit">ارسال </button>
               </div>
             </div>
           </form>

@@ -1,7 +1,11 @@
 <?php include('includes/header.php'); ?>
-
+<style>
+ #mainNav{
+    background-color:#212529!important;
+  }
+</style>
   <!-- Services -->
-  <section id="about">
+  <section id="about" style="padding-bottom: 0px;">
     <div class="container">
       <h2 class="intro-heading" style="color:#C50084; text-transform:none"> FAQs </h2>
       <h4>Video: How to register for SERAPIS step by step</h4>
@@ -195,7 +199,8 @@ To inform the applicant of his acceptance.
       <hr>
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Serapis 2018 | Project by: <a href="http://359.jo">359</a></span>
+          <span class="copyright">
+            Copyright &copy; Serapis 2019 </span>
         </div>
 
       </div>

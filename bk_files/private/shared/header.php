@@ -2,16 +2,18 @@
 
 <?php
   if(!isset($page_title)){
-    $page_title = 'Apply to RBK Program!';
+    $page_title = 'Apply to Serpais Program!';
   }
-  if(!isset($logo_img)){
-    $logo_img ="_images/rbk_logo.png";
-  }
+  // if(!isset($logo_img)){
+  //   $logo_img ="_images/rbk_logo.png";
+  // }
   if(!isset($css_url)){
     $css_url ="_css/styles.css";
   }
+  $lg = (isset($_REQUEST['lg']) ? $_REQUEST['lg'] : null);
+  
 ?>
-<?//php inlude "../initials.php"; ?>
+<?//php include "../initials.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +27,6 @@
     <link rel="shortcut icon" href="http://rbk.org/wp-content/uploads/2016/03/fav.png" />
     <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script data-require="bootstrap@*" data-semver="3.1.1" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
- 
 </head>
 
 <body>
@@ -56,14 +57,31 @@
            </div>
         </nav> -->
 
+<div class="container">
+    <?php
+    
+    if( $lg == "ar" || $lg == null){
+      echo '<a href="?lg=en"> English</a>';
+    }else{
+      echo '
+      <div class="pull-right">
+      <a href="?lg=ar"> أقرأ بالعربي</a>
+      
+      </div>
+      <div class="clear_fix></div>
+      ';
+    }
+    echo '</div>
+          <div class="container">
+          <br>
+          <br>'
+          ;
+        if($lg =="ar" || $lg == null){
+          echo '<h2 style="color:#B32082;" class="text-center">اهلا بكم في بوابة القبول لبرنامج سيرابيس</h2>';
+        }else{
+          echo '<h2 style="color:#B32082;">Welcome to The Serapis Admissions Portal</h2>';
+        }
 
-
-       
-
-    <div class="container text-center" >
-        <br>
-        <br>
-        <h2 style="color:#B32082;">Welcome to The Serapis Admissions Portal</h2>
-        <h2 style="color:#B32082;">اهلا بكم بوابة القبول لبرنامج سيرابيس</h2>
-    </div>
-    <div class="container my_main">
+        echo '</div><div class="container my_main">';
+    ?>
+    
